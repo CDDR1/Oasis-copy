@@ -1,0 +1,179 @@
+* {
+    font-family: Verdana, Arial Narrow, helvetica, sans-serif;
+    font-size: 15px;
+}
+
+body {
+    margin: 8px 22px 8px 16px;
+}
+
+body a:hover {    
+    text-decoration: underline;  
+    color: rgb(122, 35, 0);
+}
+
+main {
+    height: 100vh;
+}
+
+.main-logo {
+    height: 78px;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 36px;
+}
+
+.main-nav li {
+    padding: 10px;
+    background-color: #cccccc;
+    padding-top: 0;
+}
+
+.main-nav .selected {
+    background-color: #003366;
+}
+
+.main-nav .selected a {
+    color: #ffffff;
+}
+
+.main-nav .selected a:hover {
+    color: #ffffff;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+.main-nav a:hover {
+    color: #000000;
+}
+
+.main-nav a:hover {
+    text-decoration: none;
+}
+
+.main-hr {
+    margin: 0;
+    background-color: #003366;
+    border: 1.5px solid #003366;
+}
+
+.header-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-links li {
+    padding: 6px;
+}
+
+.header-links li a {
+    text-decoration: none;
+    font-style: oblique;
+    font-size: 17px;
+    font-weight: bold;
+    color: #0000ff;
+}
+
+.header-links li a:hover {
+    text-decoration: underline;  
+    color: rgb(122, 35, 0);
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.menu-hr {
+    background-color: #cccc00;
+    border: 2.5px solid #cccc00;
+}
+
+.welcome-messages {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.p-margin-0 {
+    margin-top: 0;
+}
+
+.spacer {
+    height: 45px;
+}
+
+h2 {
+    color: #FF0000;
+    text-align: center;
+    font-size: 16px;
+}
+
+.green-text {
+    color: #008000;
+}
+
+.green-text a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+.green-text strong {
+    color: #FF0000;
+    font-size: 17px;
+}
+
+.green-text .black-text {
+    color: #000000;
+}
+
+.options-spacer {
+    height: 10px;
+}
+
+.options {
+    margin-left: 10px;
+}
+
+.option {
+    color: #0000ff;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.return-to-homepage {
+    font-size: 16.5px;
+    text-decoration: none;
+    color: #0000ff;
+}
+
+.footer-spacer {
+    height: 50px;
+}
+
+footer {
+    height: 13%;
+}
+
+.release-version {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 14px;
+}
