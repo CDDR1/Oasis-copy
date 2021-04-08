@@ -32,6 +32,9 @@ main {
     padding: 10px;
     background-color: #cccccc;
     padding-top: 0;
+    transform: perspective(80px) rotateX(25deg);
+    margin-right: 8px;
+    border-radius: 5px;
 }
 
 .main-nav .selected {
